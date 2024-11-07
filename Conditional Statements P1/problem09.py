@@ -2,7 +2,7 @@
 s1= int(input("Enter first side of triange: "))
 s2= int(input("Enter second side of triangle: "))
 s3= int(input("Enter third side of triangle: "))
-if  s1+s2==s3:
+if  s1==s2==s3:
     print("The given sides form an equilateral triangle.")
 else:
     print("The given sides do not form an equilateral triangle.")
